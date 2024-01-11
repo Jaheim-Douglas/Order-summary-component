@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    padding: 35px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+#top-image img {
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0;
+}
+
+#order-container {
+    width: 400px;
+    height: 525px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+#order-container p {
+    opacity: 50%;
+}
+
+#price-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+#price-container img {
+    height: fit-content;
+    margin-top: 25px;
+    width: fit-content;
+}
+
+#annual-plan {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+#order-container p {
+    line-height: 25px;
+}
+
+#price-container a {
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+#price-container a:hover {
+    opacity: 50%;
+}
+
+#btn-section button {
+    display: block;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#pro-btn {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    padding: 15px;
+    width: 75%;
+    left: 35px;
+    background-color: #3829e0;
+    color: white;
+    font-weight: 700;
+}
+
+#pro-btn:hover {
+    opacity: 50%;
+}
+
+#cancel-btn {
+    position: relative;
+    padding: 15px;
+    width: 75%;
+    left: 35px;
+    background-color: white;
+    font-weight: 700;
+    color: gray;
+}
+
+#cancel-btn:hover {
+    color: black;
+}
+
+@media (min-width: 1024px) {
+    #top-image img {
+        position: relative;
+        left: 500px;
+    }
+
+    #order-container {
+        position: relative;
+        left: 500px;
+        
+    }
+}
